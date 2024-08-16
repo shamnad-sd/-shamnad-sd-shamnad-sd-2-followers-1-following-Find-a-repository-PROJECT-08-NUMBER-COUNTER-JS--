@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Lilita+One&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0000001a;
+    margin: 0;
+    font-family: "Lilita One", sans-serif;
+}
+
+.counter-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#counter {
+    font-size: 6em;
+    margin: 20px 0;
+}
+
+.buttons button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#increment {
+    background-color: #399918;
+    color: white;
+}
+
+#decrement {
+    background-color: #E4003A;
+    color: white;
+}
+
+#reset {
+    background-color: #B60071;
+    color: white;
+}
+
+.buttons button:hover {
+    opacity: 0.9;
+
+}
